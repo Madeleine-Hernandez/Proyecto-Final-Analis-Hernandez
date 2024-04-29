@@ -1,0 +1,14 @@
+// Función para calcular el tamaño de fuente rem en base a píxeles
+@function rem($pixels) {
+    @return $pixels / 16 + rem; // Se asume que 1rem = 16px
+}
+
+  // Función para convertir píxeles a em
+@function em($pixels, $context: 16px) {
+    @return $pixels / $context + em;
+}
+
+  // Función para calcular porcentaje
+@function percentage($value, $total) {
+    @return ($value / $total) * 100%;
+}

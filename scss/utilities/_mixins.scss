@@ -1,0 +1,23 @@
+// Estilo para centrar contenido horizontalmente
+@mixin centrar-horizontalmente {
+    display: flex;
+    justify-content: center;
+}
+
+  // Estilo para centrar contenido verticalmente
+@mixin centrar-verticalmente {
+    display: flex;
+    align-items: center;
+}
+
+  // Estilo para ocultar elementos visualmente pero mantener accesibilidad
+@mixin ocultar {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}

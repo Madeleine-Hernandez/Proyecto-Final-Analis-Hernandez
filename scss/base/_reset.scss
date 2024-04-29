@@ -1,0 +1,29 @@
+/* Resetear márgenes y padding */
+html,
+body,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Resetear estilos de lista */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Resetear estilos de enlaces */
+a {
+    text-decoration: none;
+    color: inherit; /* Heredar color del texto */
+}
+
+/* Otros reseteos comunes, como estilos de formularios */
+input,
+button,
+textarea {
+border: none;
+outline: none;
+  /* Otros estilos */
+}
